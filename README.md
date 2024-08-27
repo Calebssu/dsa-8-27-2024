@@ -2,6 +2,7 @@
 
 ### Problem 1: Insertion Sort
 
+##### JS
 ~~~
 insertionSort(pairs) {
         let arr = [];
@@ -31,6 +32,7 @@ Disclaimer: this solution does not work on the actual neetcode. on 8-27-2024 Dj 
 
 ### Problem 2: Reverse Linked List
 
+##### JS
 ~~~
 var reverseList = function(head) {
     let pre = null;
