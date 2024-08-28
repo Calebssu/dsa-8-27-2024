@@ -55,7 +55,7 @@ var reverseList = function(head) {
 
 ##### Problem 1
 
-For problem one it would be Linear time complexity O(n) because the runtime is based off of how many indexes are in the array.
+For problem one it would be Quadratic Time O(n^2) because the number of operations grows with the size that's passed in. If the array were to increase by one, it would actually double the runtime because of algorithm's structure.
 
 ##### Problem 2
 
@@ -65,6 +65,7 @@ For problem two it would also be Linear time complexity O(n) because it searches
 
 Quicksort is one of the fastest sorting algorithms. How it works is that it takes an array of values and then chooses one of them to be the pivot. The pivot element acts as the anchor for our code so if we had an array of numbers: 
 
+##### JS
 ~~~
 let arr = [1, 9, 43, 29, 10, 7]
 ~~~
